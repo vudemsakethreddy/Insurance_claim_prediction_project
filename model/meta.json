@@ -1,0 +1,57 @@
+{
+  "dataset_used": "dataset.csv",
+  "best_model": "LightGBM",
+  "best_roc_auc": 0.9999863557548218,
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.871443,
+      "precision": 0.90734,
+      "recall": 0.868797,
+      "f1": 0.887651,
+      "roc_auc": 0.940414
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.997049,
+      "precision": 0.998073,
+      "recall": 0.996877,
+      "f1": 0.997475,
+      "roc_auc": 0.997084
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.998325,
+      "precision": 0.998588,
+      "recall": 0.998546,
+      "f1": 0.998567,
+      "roc_auc": 0.999928
+    },
+    {
+      "model": "KNN",
+      "accuracy": 0.9985,
+      "precision": 0.99893,
+      "recall": 0.998503,
+      "f1": 0.998716,
+      "roc_auc": 0.999737
+    },
+    {
+      "model": "XGBoost",
+      "accuracy": 0.989597,
+      "precision": 0.995297,
+      "recall": 0.986867,
+      "f1": 0.991064,
+      "roc_auc": 0.999423
+    },
+    {
+      "model": "LightGBM",
+      "accuracy": 0.9986,
+      "precision": 0.999101,
+      "recall": 0.998503,
+      "f1": 0.998802,
+      "roc_auc": 0.999986
+    }
+  ],
+  "plots_dir": "C:\\Users\\saket\\OneDrive\\Desktop\\project\\static\\plots",
+  "note": ""
+}
