@@ -6,3 +6,4 @@ numpy
 joblib
 matplotlib
 pydantic
+imbalanced-learn
