@@ -5,7 +5,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from typing import Optional, Any, Dict
 
-from model_utils import train_all_models, predict_one, STATIC_PLOTS_DIR
+from backend.model_utils import train_all_models, predict_one, STATIC_PLOTS_DIR
 app = FastAPI(title="Insurance Claim API")
 
 # Allow Streamlit frontend to call API
